@@ -12,4 +12,9 @@ main() {
   print('a = $a'); //imprime: a = 12 (sai do laço quando 'a' ultrapassa 10)
 
   print('Fim!'); //imprime: Fim!
+
+  for(int a = 100; a >= 0; a = a - 4) {
+
+    print("a = $a");
+  }
 }

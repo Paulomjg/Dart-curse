@@ -3,8 +3,9 @@ import 'dart:math';
 /*Funções que retornam um inteiro, com e sem parâmetro*/
 main() {
   int resultado = somar(2, 3);
-
   print(resultado); //imprime: 5
+
+  print(somar(3,4)); //imprime: 7
   print(somarNumerosAleatorios()); //imprime a soma de 2 números aleatórios
 }
 

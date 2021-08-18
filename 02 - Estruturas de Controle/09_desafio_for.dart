@@ -10,7 +10,7 @@ Usando FOR, mas não podendo controlar o laço com valor numérico!
 */
 
 //Soluçao 1: (própria)
-  var simbolo = ['#', '##', '###', '####', '#####', '######'];
+  var simbolo = ['    #', '   ###', '  #####', ' #######', '#########'];
   for (var simbolos in simbolo) {
     print(simbolos);
   }
